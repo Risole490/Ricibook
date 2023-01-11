@@ -18,7 +18,6 @@
     display: flex;
     align-items: center;
     column-gap: 10px;
-    border: 1px solid grey;
     border-radius: 8px;
     width: 100vw;
     padding: 0.3em 0.5em;
@@ -35,5 +34,7 @@
 
 .item__lista-esquerda--texto {
     color: var(--texto-primario);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
 
