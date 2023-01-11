@@ -1,0 +1,22 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cinza-claro);
+    padding: 0.8em 1em;
+}
+
+.nav_item {
+    padding: 0.5em;
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    background-color: var(--cinza-clarin);
+    background-repeat: no-repeat;
+}
+
+.header_logo {
+    color: var(--branco);
+    font-family: var(--fonte-logo);
+    font-weight: 700;
+    font-size: 1.9em;
+}

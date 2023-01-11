@@ -1,0 +1,13 @@
+@import url(/styles/header.css);
+
+:root {
+    --fonte-logo: 'Cabin';
+    --branco: #FFFFFF;
+    --cinza-dark: #1c1c1c;
+    --cinza-claro: #242424;
+    --cinza-clarin: #3c3c3c;
+}
+
+body {
+    background-color: var(--cinza-dark);
+}
