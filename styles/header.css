@@ -42,7 +42,7 @@
 }
 
 .search-bar {
-    width: 35%;
+    width: 38%;
     padding: 0.9em;
     border-radius: 30px;
     background-color: var(--cinza-clarin);
@@ -52,8 +52,9 @@
 .search-bar::placeholder {
     background-image: url(/Images/search.svg);
     background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
     background-size: 18px;
     color: #ADABAB;
     font-size: 15px;
-    padding-left: 1.6em;
 }

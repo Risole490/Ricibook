@@ -1,4 +1,5 @@
 @import url(/styles/header.css);
+@import url(/styles/menus.css);
 
 :root {
     --fonte-logo: 'Cabin';
@@ -6,9 +7,13 @@
     --cinza-dark: #1c1c1c;
     --cinza-claro: #242424;
     --cinza-clarin: rgba(255, 255, 255, 0.1);
-    --texto-primario: #E4E6EB
+    --texto-primario: #E4E6EB;
 }
 
 body {
     background-color: var(--cinza-dark);
+}
+
+.container__principal {
+    margin-top: 1.5em;
 }
