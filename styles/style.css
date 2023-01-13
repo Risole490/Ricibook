@@ -1,10 +1,12 @@
 @import url(/styles/header.css);
 @import url(/styles/menus.css);
+@import url(/styles/meio.css);
+@import url(/styles/menud.css);
 
 :root {
     --fonte-logo: 'Cabin';
     --branco: #FFFFFF;
-    --cinza-dark: #1c1c1c;
+    --cinza-dark: #18191A;
     --cinza-claro: #242424;
     --cinza-clarin: rgba(255, 255, 255, 0.1);
     --texto-primario: #E4E6EB;
@@ -17,4 +19,5 @@ body {
 .container__principal {
     margin-top: 1.5em;
     display: flex;
+    justify-content: space-between;
 }

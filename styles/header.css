@@ -42,9 +42,10 @@
 }
 
 .search-bar {
-    width: 38%;
+    width: 35%;
     padding: 0.9em;
-    border-radius: 30px;
+    margin-right: 3em;
+    border-radius: 29px;
     background-color: var(--cinza-clarin);
     border: none;
 }
@@ -53,7 +54,7 @@
     background-image: url(/Images/search.svg);
     background-repeat: no-repeat;
     background-position: left;
-    background-position-x: 10px;
+    background-position-x: 5px;
     background-size: 18px;
     color: #ADABAB;
     font-size: 15px;
