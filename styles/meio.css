@@ -1,11 +1,12 @@
 .meio {
     width: 35.5vw;
-    background-color: #242526;
     border-radius: 10px;
 }
 
 .stories__reels-rooms {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #242526;
+    border-radius: 10px;
 }
 
 .lista-srr {
@@ -42,6 +43,7 @@
     color: #B0B3B8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .swiper {
@@ -142,4 +144,57 @@
     font-weight: 600;
     font-size: 14px;
     margin-top: 8.2em;
+}
+
+.make__post {
+    border: 1px solid white;
+    margin-top: 2em;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0.8em;
+}
+
+.post-perfil {
+    width: 40px;
+}
+
+.write__post {
+    width: 31.3vw;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--cinza-clarin);
+    margin-left: 0.5em;
+}
+
+.write__post::placeholder {
+    font-size: 17px;
+    padding-left: 0.6em;
+    color: #B0B3B8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post__options {
+    width: 100vw;
+    margin-top: 0.7em;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 4px;
+    padding-top: 0.4em;
+}
+
+.item__post-options {
+    padding: 0.6em 3.5em;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.item__post-options a {
+    text-decoration: none;
+    color: #B0B3B8;
+    font-weight: 600;
 }
