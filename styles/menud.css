@@ -1,5 +1,58 @@
 .menu-direito {
-    border: 1px solid gray;
     width: 19vw;
     margin-right: 0.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuD__title {
+    color: #e4e6eb;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.birthdays {
+    margin-bottom: 2em;
+}
+
+.birthdays p {
+    margin-top: 0.5em;
+    color: #e4e6eb;
+    padding: 0.6em;
+    display: flex;
+    align-items: center;
+}
+
+.birthdays p::before {
+    content: url(/Images/gift.png);
+    margin-right: 0.8em;
+}
+
+.birth__people {
+    color: #e4e6eb;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container-contato {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    border-radius: 10px;
+    column-gap: 10px;
+    margin-top: 0.5em;
+    text-decoration: none;
+}
+
+.container-contato:hover {
+    background-color: var(--cinza-clarin);
+}
+
+.contact-icon {
+    width: 26px;
+    border-radius: 20px;
+}
+
+.contato-nome {
+    font-weight: 500;
+    color: #e4e6eb;
 }
