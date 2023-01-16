@@ -2,6 +2,7 @@
 @import url(/styles/menus.css);
 @import url(/styles/meio.css);
 @import url(/styles/menud.css);
+@import url(/styles/post.css);
 
 :root {
     --fonte-logo: 'Cabin';
