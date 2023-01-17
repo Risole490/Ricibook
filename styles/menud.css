@@ -8,16 +8,16 @@
     color: #e4e6eb;
     font-size: 17px;
     font-weight: 600;
+    margin-bottom: 0.5em;
 }
 
 .birthdays {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .birthdays p {
-    margin-top: 0.5em;
     color: #e4e6eb;
-    padding: 0.6em;
+    padding: 0em 0.5em;
     display: flex;
     align-items: center;
 }

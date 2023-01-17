@@ -28,7 +28,6 @@
     font-weight: 600;
     color: #e4e6eb;
     font-size: 15px;
-
 }
 
 .privacy {
@@ -50,7 +49,7 @@
 }
 
 .post-image {
-    width: 35.38vw;
+    width: -webkit-fill-available;
 }
 
 .post-text {
@@ -86,7 +85,7 @@
 .coms-shrs {
     font-size: 15px;
     color: #b0b3b8;
-    margin-left: 22.3em;
+    margin-left: auto;
 }
 
 .coms-filter::after {
