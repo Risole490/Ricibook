@@ -178,7 +178,7 @@
 .post__options {
     width: 100vw;
     margin-top: 0.7em;
-    border-top: 1px solid grey;
+    border-top: 0.1em solid var(--cinza-clarin);
     display: flex;
     justify-content: space-around;
     align-items: center;
