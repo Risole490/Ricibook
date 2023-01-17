@@ -1,6 +1,7 @@
 .meio {
     width: 40vw;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .stories__reels-rooms {
@@ -140,40 +141,41 @@
     border: none;
     margin-top: 2em;
     border-radius: 10px;
-    display: flex;
-    flex-flow: row wrap;
-    padding: 0.8em;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 1fr 1fr;
+    padding: 0em 1em;
     background-color: #242526;
 }
 
 .post-perfil {
     width: 40px;
+    align-self: center;
 }
 
 .write__post {
-    width: 31.3vw;
     border-radius: 30px;
     border: none;
     background-color: var(--cinza-clarin);
-    margin-left: 0.5em;
+    grid-column: 2 / span all;
+    padding: 0.8em;
+    align-self: center;
+    margin-left: 0.6em;
 }
 
 .write__post::placeholder {
     font-size: 17px;
-    padding-left: 0.6em;
     color: #B0B3B8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .post__options {
-    width: 100vw;
-    margin-top: 0.7em;
     border-top: 0.1em solid var(--cinza-clarin);
     display: flex;
-    justify-content: space-around;
     align-items: center;
     column-gap: 4px;
-    padding-top: 0.4em;
+    padding: 0.4em;
+    grid-column: 1 / span 2;
 }
 
 .item__post-options {
