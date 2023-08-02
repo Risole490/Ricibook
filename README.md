@@ -6,7 +6,7 @@
 
 <h3>Details:</h3>
 <p> Use of HTML5 and CSS3 only</p>
-<p>Responsiveness being applied</p>
+<p>Responsiveness currently being applied</p>
 
-♥
+
 
